@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4433F5A015F5557300B3E220 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4433F59F15F5557300B3E220 /* UIKit.framework */; };
+		4433F5A215F5557300B3E220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4433F5A115F5557300B3E220 /* Foundation.framework */; };
+		4433F5A415F5557300B3E220 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4433F5A315F5557300B3E220 /* CoreGraphics.framework */; };
+		4433F5AA15F5557300B3E220 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4433F5A815F5557300B3E220 /* InfoPlist.strings */; };
+		4433F5AC15F5557300B3E220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433F5AB15F5557300B3E220 /* main.m */; };
+		4433F5B015F5557300B3E220 /* fvsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433F5AF15F5557300B3E220 /* fvsAppDelegate.m */; };
+		4433F5B315F5557300B3E220 /* fvsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433F5B215F5557300B3E220 /* fvsViewController.m */; };
+		4433F5B615F5557300B3E220 /* fvsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4433F5B415F5557300B3E220 /* fvsViewController.xib */; };
+		4433F5C015F556CC00B3E220 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4433F5BF15F556CC00B3E220 /* QuartzCore.framework */; };
+		4433F5C115F5589800B3E220 /* MovingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433F5BE15F5569100B3E220 /* MovingLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4433F59B15F5557300B3E220 /* MovinLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovinLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4433F59F15F5557300B3E220 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4433F5A115F5557300B3E220 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4433F5A315F5557300B3E220 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4433F5A715F5557300B3E220 /* MovinLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovinLabel-Info.plist"; sourceTree = "<group>"; };
+		4433F5A915F5557300B3E220 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4433F5AB15F5557300B3E220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4433F5AD15F5557300B3E220 /* MovinLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovinLabel-Prefix.pch"; sourceTree = "<group>"; };
+		4433F5AE15F5557300B3E220 /* fvsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fvsAppDelegate.h; sourceTree = "<group>"; };
+		4433F5AF15F5557300B3E220 /* fvsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fvsAppDelegate.m; sourceTree = "<group>"; };
+		4433F5B115F5557300B3E220 /* fvsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fvsViewController.h; sourceTree = "<group>"; };
+		4433F5B215F5557300B3E220 /* fvsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fvsViewController.m; sourceTree = "<group>"; };
+		4433F5B515F5557300B3E220 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/fvsViewController.xib; sourceTree = "<group>"; };
+		4433F5BD15F5569100B3E220 /* MovingLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovingLabel.h; sourceTree = "<group>"; };
+		4433F5BE15F5569100B3E220 /* MovingLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovingLabel.m; sourceTree = "<group>"; };
+		4433F5BF15F556CC00B3E220 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4433F59815F5557300B3E220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4433F5C015F556CC00B3E220 /* QuartzCore.framework in Frameworks */,
+				4433F5A015F5557300B3E220 /* UIKit.framework in Frameworks */,
+				4433F5A215F5557300B3E220 /* Foundation.framework in Frameworks */,
+				4433F5A415F5557300B3E220 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4433F59015F5557200B3E220 = {
+			isa = PBXGroup;
+			children = (
+				4433F5A515F5557300B3E220 /* MovinLabel */,
+				4433F59E15F5557300B3E220 /* Frameworks */,
+				4433F59C15F5557300B3E220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4433F59C15F5557300B3E220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4433F59B15F5557300B3E220 /* MovinLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4433F59E15F5557300B3E220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4433F5BF15F556CC00B3E220 /* QuartzCore.framework */,
+				4433F59F15F5557300B3E220 /* UIKit.framework */,
+				4433F5A115F5557300B3E220 /* Foundation.framework */,
+				4433F5A315F5557300B3E220 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4433F5A515F5557300B3E220 /* MovinLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4433F5BC15F5566700B3E220 /* MovingLabelClass */,
+				4433F5AE15F5557300B3E220 /* fvsAppDelegate.h */,
+				4433F5AF15F5557300B3E220 /* fvsAppDelegate.m */,
+				4433F5B115F5557300B3E220 /* fvsViewController.h */,
+				4433F5B215F5557300B3E220 /* fvsViewController.m */,
+				4433F5B415F5557300B3E220 /* fvsViewController.xib */,
+				4433F5A615F5557300B3E220 /* Supporting Files */,
+			);
+			path = MovinLabel;
+			sourceTree = "<group>";
+		};
+		4433F5A615F5557300B3E220 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4433F5A715F5557300B3E220 /* MovinLabel-Info.plist */,
+				4433F5A815F5557300B3E220 /* InfoPlist.strings */,
+				4433F5AB15F5557300B3E220 /* main.m */,
+				4433F5AD15F5557300B3E220 /* MovinLabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4433F5BC15F5566700B3E220 /* MovingLabelClass */ = {
+			isa = PBXGroup;
+			children = (
+				4433F5BD15F5569100B3E220 /* MovingLabel.h */,
+				4433F5BE15F5569100B3E220 /* MovingLabel.m */,
+			);
+			name = MovingLabelClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4433F59A15F5557300B3E220 /* MovinLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4433F5B915F5557300B3E220 /* Build configuration list for PBXNativeTarget "MovinLabel" */;
+			buildPhases = (
+				4433F59715F5557300B3E220 /* Sources */,
+				4433F59815F5557300B3E220 /* Frameworks */,
+				4433F59915F5557300B3E220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovinLabel;
+			productName = MovinLabel;
+			productReference = 4433F59B15F5557300B3E220 /* MovinLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4433F59215F5557200B3E220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = fvs;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4433F59515F5557200B3E220 /* Build configuration list for PBXProject "MovinLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4433F59015F5557200B3E220;
+			productRefGroup = 4433F59C15F5557300B3E220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4433F59A15F5557300B3E220 /* MovinLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4433F59915F5557300B3E220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4433F5AA15F5557300B3E220 /* InfoPlist.strings in Resources */,
+				4433F5B615F5557300B3E220 /* fvsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4433F59715F5557300B3E220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4433F5C115F5589800B3E220 /* MovingLabel.m in Sources */,
+				4433F5AC15F5557300B3E220 /* main.m in Sources */,
+				4433F5B015F5557300B3E220 /* fvsAppDelegate.m in Sources */,
+				4433F5B315F5557300B3E220 /* fvsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4433F5A815F5557300B3E220 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4433F5A915F5557300B3E220 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4433F5B415F5557300B3E220 /* fvsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4433F5B515F5557300B3E220 /* en */,
+			);
+			name = fvsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4433F5B715F5557300B3E220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4433F5B815F5557300B3E220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4433F5BA15F5557300B3E220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovinLabel/MovinLabel-Prefix.pch";
+				INFOPLIST_FILE = "MovinLabel/MovinLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4433F5BB15F5557300B3E220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovinLabel/MovinLabel-Prefix.pch";
+				INFOPLIST_FILE = "MovinLabel/MovinLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4433F59515F5557200B3E220 /* Build configuration list for PBXProject "MovinLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4433F5B715F5557300B3E220 /* Debug */,
+				4433F5B815F5557300B3E220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4433F5B915F5557300B3E220 /* Build configuration list for PBXNativeTarget "MovinLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4433F5BA15F5557300B3E220 /* Debug */,
+				4433F5BB15F5557300B3E220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4433F59215F5557200B3E220 /* Project object */;
+}
